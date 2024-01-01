@@ -1,0 +1,40 @@
+* {
+  font-family: Roboto;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #07080c;
+}
+
+img {
+  height: 250px;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.btn-con {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  background-color: transparent;
+  border: 2px solid #cbd5e1;
+  color: #cbd5e1;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.btn {
+  background-color: #0b69ff;
+  border: none;
+}
